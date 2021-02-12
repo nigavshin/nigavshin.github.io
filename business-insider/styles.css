@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "LabGrotesque";
+  src: url("fonts/LabGrotesque-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "LabGrotesque";
+  src: url("fonts/LabGrotesque-Black.woff2") format("woff2");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: #f5f5f5;
+  font-family: "LabGrotesque", Arial, sans-serif;
+  font-style: normal;
+}
+.main {
+  width: 700px;
+  height: 400px;
+  background-color: #ffffff;
+  margin: 10% 30%;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+  border: 1px solid #000000;
+  padding: 35px 35px 20px 35px;
+}
+h1 {
+  font-size: 41px;
+  font-weight: 900;
+  margin-top: 32px;
+  width: 460px;
+}
+.subtitle {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 15px;
+  width: 490px;
+  line-height: 21px;
+}
+.btn-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 452px;
+  margin: 30px auto;
+}
+.btn-sub-text {
+  font-size: 9px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 12px;
+  letter-spacing: 0.05em;
+  margin-bottom: 10px;
+}
+.btn-left {
+  text-transform: uppercase;
+  border: 2px solid #fd722d;
+  border-radius: 50px;
+  width: 185px;
+  height: 42px;
+  background-color: transparent;
+  font-family: "LabGrotesque";
+  font-size: 11px;
+  color: #fd722d;
+  cursor: pointer;
+}
+.btn-right {
+  text-transform: uppercase;
+  border: 2px solid #fd722d;
+  border-radius: 50px;
+  width: 185px;
+  height: 42px;
+  background-color: #fd722d;
+  font-family: "LabGrotesque";
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 11px;
+}
+a {
+  text-decoration: none;
+  color: #fd722d;
+  font-size: 13px;
+  font-family: "LabGrotesque";
+}
+.learn-link {
+  float: left;
+}
+.sign-link {
+  float: right;
+  font-size: 13px;
+  font-family: "LabGrotesque";
+  color: #9b9b9b;
+}
