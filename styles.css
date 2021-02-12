@@ -97,3 +97,18 @@ a {
   font-family: "LabGrotesque";
   color: #9b9b9b;
 }
+@media (max-width: 1400px) {
+  .main {
+    margin: 10% 20%;
+  }
+}
+@media (max-width: 950px) {
+  .main {
+    margin: 5% 5%;
+  }
+}
+@media (max-width: 750px) {
+  .main {
+    margin: 2%;
+  }
+}
