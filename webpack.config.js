@@ -14,7 +14,7 @@ module.exports = {
     mode: 'development',
     devServer: {
         historyApiFallback: true,
-        contentBase: path.resolve(__dirname, './dist'),
+        contentBase: path.join(__dirname, './src'),
         open: true,
         compress: true,
         hot: true,
