@@ -1,8 +1,10 @@
 $font-family: "Rubik", sans-serif;
 $font-size: 1rem;
 $color-red: #e5261e;
+$color-gray: #828282;
 
 @mixin flex-mode {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }

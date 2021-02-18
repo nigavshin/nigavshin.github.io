@@ -1,3 +1,66 @@
 .header {
   @include flex-mode;
+  margin-top: 34px;
+}
+
+.input-wrapper {
+  width: 500px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.input-wrapper::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  user-select: none;
+  color: transparent;
+}
+
+input {
+  width: 320px;
+  height: 25px;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  outline: none;
+  font-size: 16px;
+  line-height: 19px;
+  font-style: normal;
+  font-family: $font-family;
+  border-bottom: 1px solid #333333;
+  background-color: transparent;
+}
+
+.search-btn {
+  border: none;
+  color: $color-red;
+  background: transparent;
+  font-family: $font-family;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 32px;
+  outline: none;
+}
+.search-btn:hover {
+  cursor: pointer;
+}
+.btn-entry {
+  width: 113px;
+  height: 38px;
+  background-color: $color-red;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: $font-family;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+.btn-entry:hover {
+  background-color: #cc221b;
+  cursor: pointer;
 }
