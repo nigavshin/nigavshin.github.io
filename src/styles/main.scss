@@ -1,5 +1,6 @@
 @import "variables";
 @import "header";
+@import "main-cont";
 
 @font-face {
   font-family: "Rubik";
@@ -18,6 +19,12 @@
   src: url("../fonts/Rubik-Bold.woff") format("woff");
   font-style: normal;
   font-weight: 700;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-Light.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
 }
 
 html {
