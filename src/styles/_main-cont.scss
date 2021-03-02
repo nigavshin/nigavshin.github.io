@@ -106,20 +106,9 @@ h1 {
 
 .genres-cont {
   @include flex-mode;
+  margin-bottom: 72px;
 }
-.genre-item {
-  text-decoration: none;
-  width: 280px;
-  height: 208px;
-  border-radius: 6px;
-  text-align: center;
-  border: none;
-}
-.genre-item:hover {
-  cursor: pointer;
-  opacity: 1;
-  background: linear-gradient(127.83deg, #f2994a 8.44%, #eb5757 91.36%);
-}
+
 .genre-item:nth-child(1) {
   background: linear-gradient(127.83deg, #f2994a 8.44%, #eb5757 91.36%);
   opacity: 0.8;
@@ -140,6 +129,18 @@ h1 {
   background: linear-gradient(127.83deg, #828282 8.44%, #333333 91.36%);
   opacity: 0.8;
   box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+}
+.genre-item {
+  text-decoration: none;
+  width: 280px;
+  height: 208px;
+  border-radius: 6px;
+  text-align: center;
+  border: none;
+}
+.genre-item:hover {
+  cursor: pointer;
+  opacity: 1;
 }
 .genre-item-smile {
   margin-top: 80px;

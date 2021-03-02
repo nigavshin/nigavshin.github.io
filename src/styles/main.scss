@@ -1,6 +1,8 @@
 @import "variables";
 @import "header";
 @import "main-cont";
+@import "footer";
+@import "channels";
 
 @font-face {
   font-family: "Rubik";
@@ -43,4 +45,8 @@ html {
 .container {
   max-width: 1180px;
   margin: 0 auto;
+}
+
+ul {
+  list-style: none;
 }
